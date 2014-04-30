@@ -17,9 +17,14 @@ h2 {
 	font-size: 20px;
 }
 
+a {
+    color:#FF99C2;
+}
+
 p {
 	font-family: courier;
 	font-size: 20px;
+    line-height:25px;
 	margin-left: 50px;
 	color: gray;
 }
