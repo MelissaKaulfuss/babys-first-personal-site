@@ -2,7 +2,7 @@ html {
     padding: 50px, 50px, 50px, 50px;
 }
 .home{
-    font-family: "proxima-nova";
+    font-family: "bello-caps";
     margin-left: 0;
     margin-top: 20px;
     text-align: center;  
@@ -22,7 +22,8 @@ a {
     color:#FF99C2;
   }
 p {
-	font-family: courier;
+	font-family: "proxima-nova";
+    font-weight: thin;
 	font-size: 20px;
     line-height:25px;
 	margin-left: 50px;
