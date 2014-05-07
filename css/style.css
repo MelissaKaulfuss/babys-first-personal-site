@@ -1,40 +1,77 @@
 html {
-	background-color: none;
+    padding: 50px, 50px, 50px, 50px;
 }
-
-a {
-	color: gray;
+.home{
+    font-family: "proxima-nova";
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;  
 }
-
 h1 {
-	font-family: courier, #B5B5B5;
-	margin-left: 50px;
+    font-family: "proxima-nova";
+	margin-left: 0;
+    margin-top: 20px;
+    text-align: left;
 }
-
 h2 {
 	font-family: courier, #B5B5B5;
 	margin-left: 50px;
 	font-size: 20px;
 }
-
 a {
     color:#FF99C2;
   }
-
 p {
 	font-family: courier;
 	font-size: 20px;
     line-height:25px;
 	margin-left: 50px;
-	color: gray;
+    margin-right: 50px;
+    margin-bottom: 0;
+	color: black;
+}
+#contact-block {
+    text-align: center;
+    background-color: none;
+    clear: both;
+}
+#contact-block p{
+    display:inline-block;
+    text-align: right;
+    color:#C9C9C9;
 }
 
+#contact-block a{
+    color:#C9C9C9;
+}
+
+#contact-block a:hover{
+    color:#FF99C2;
+}
+#homehead {
+    position: center;
+    margin-right: 100px;
+}
+.body {
+    width: 100%;
+    margin: 30px, 30px, 30px, 30px;
+    background-color: none;
+    float: left;
+}
+.line-separator{
+
+height:1px;
+background:gray;
+
+border-bottom:1px dotted gray;
+
+}
 .nav{
     list-style:none;
     margin:0;
     padding:0;
-    text-align:left;
-    background-color: #FF99C2;
+    text-align:right;
+    background-color: none;
 }
 .nav li{
     display:inline;
@@ -46,22 +83,20 @@ p {
     font-family: courier, 40px;
     text-decoration: none;
 }
-
 .rotate{
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     -o-transition-duration: 0.8s;
     transition-duration: 0.8s;
-  
     -webkit-transition-property: -webkit-transform;
     -moz-transition-property: -moz-transform;
     -o-transition-property: -o-transform;
     transition-property: transform;
-  
     overflow:hidden;
- 
+    display: block;
+    margin-left: auto;
+    margin-right: auto
     }  
- 
 .rotate:hover  
 {
     -webkit-transform:rotate(360deg);
