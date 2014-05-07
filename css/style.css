@@ -1,17 +1,20 @@
 html {
-    padding: 50px, 50px, 50px, 50px;
+    background-color:gray;
 }
 .home{
-    font-family: "bello-caps";
+    font-family: courier;
+    font-size: 60px;
     margin-left: 0;
     margin-top: 20px;
-    text-align: center;  
+    text-align: center;
+    color:#454442;  
 }
 h1 {
-    font-family: "proxima-nova";
+    font-family: courier;
+    font-size: 60px;
 	margin-left: 0;
     margin-top: 20px;
-    text-align: left;
+    text-align: center;
 }
 h2 {
 	font-family: courier, #B5B5B5;
@@ -22,24 +25,16 @@ a {
     color:#FF99C2;
   }
 p {
-	font-family: "proxima-nova";
-    font-weight: thin;
-	font-size: 20px;
+	font-family: courier;
+	font-size: 18px;
     line-height:25px;
-	margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 0;
-	color: black;
+	margin: 0;
+	color: gray;
 }
 #contact-block {
     text-align: center;
-    background-color: none;
+    background-color: black;
     clear: both;
-}
-#contact-block p{
-    display:inline-block;
-    text-align: right;
-    color:#C9C9C9;
 }
 
 #contact-block a{
@@ -49,29 +44,18 @@ p {
 #contact-block a:hover{
     color:#FF99C2;
 }
-#homehead {
-    position: center;
-    margin-right: 100px;
-}
 .body {
     width: 100%;
-    margin: 30px, 30px, 30px, 30px;
-    background-color: none;
-    float: left;
-}
-.line-separator{
-
-height:1px;
-background:gray;
-
-border-bottom:1px dotted gray;
-
 }
 .nav{
+    font-family: courier;
     list-style:none;
-    margin:0;
+    margin-top: 10px;
+    margin-bottom;10px;
+    vertical-align: center;
     padding:0;
-    text-align:right;
+    text-align:center;
+    font-size: 18px;
     background-color: none;
 }
 .nav li{
@@ -81,8 +65,11 @@ border-bottom:1px dotted gray;
     display:inline-block;
     padding:10px;
     color: gray;
-    font-family: courier, 40px;
     text-decoration: none;
+}
+.page-wrap{
+    padding: 100px, 100px, 100px, 100px;
+    background-color:white;
 }
 .rotate{
     -webkit-transition-duration: 0.8s;
