@@ -1,57 +1,56 @@
-html {
-    background-color:gray;
-}
-.home{
-    font-family: courier;
-    font-size: 60px;
-    margin-left: 0;
-    margin-top: 20px;
-    text-align: center;
-    color:#454442;  
-}
+
 h1 {
     font-family: courier;
-    font-size: 60px;
+    font-size: 65px;
 	margin-left: 0;
     margin-top: 20px;
     text-align: center;
+    color:#3B3A3A;
 }
 h2 {
 	font-family: courier, #B5B5B5;
 	margin-left: 50px;
 	font-size: 20px;
 }
+
+i {
+    color:gray;
+}
+
+i:hover
+{
+    color:#FFB0E6;
+}
 a {
     color:#FF99C2;
   }
 p {
 	font-family: courier;
-	font-size: 18px;
+	font-size: 20px;
     line-height:25px;
-	margin: 0;
 	color: gray;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 #contact-block {
-    text-align: center;
+    display: inline-block;
     background-color: black;
     clear: both;
+    float:top;
 }
-
 #contact-block a{
     color:#C9C9C9;
+    text-decoration: none
 }
-
-#contact-block a:hover{
-    color:#FF99C2;
-}
-.body {
-    width: 100%;
+.content {
+    width: 80%;
+    vertical-align: center;
+    margin:0 auto;
 }
 .nav{
     font-family: courier;
     list-style:none;
     margin-top: 10px;
-    margin-bottom;10px;
     vertical-align: center;
     padding:0;
     text-align:center;
