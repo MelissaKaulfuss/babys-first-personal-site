@@ -1,4 +1,12 @@
 
+#container{
+    width: 400px;
+}
+#floated{
+    float: left;
+    width: 150px;
+}
+
 h1 {
     font-family: "brandon-grotesque",sans-serif;
     font-style: normal;
@@ -11,9 +19,14 @@ h1 {
     text-align: center;
     color:#3B3A3A;
 }
+img {
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
 h2 {
 	font-family: courier, #B5B5B5;
-	vertical-align: center
+	vertical-align: center;
 	font-size: 20px;
     padding-left: 30px;
 }
@@ -32,6 +45,9 @@ i {
     color:#343440;
 }
 
+img {
+    margin-left: 50px;
+}
 i:hover
 {
     color:#FF99CC;
@@ -60,6 +76,7 @@ h2 {
   text-decoration: none;
   padding: 30px,30px,30px,30px;
 }
+
 #contact-block {
     display: inline-block;
     background-color: black;
